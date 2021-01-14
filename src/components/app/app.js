@@ -1,4 +1,5 @@
 import React from 'react';
+import './app.css';
 import { Route, Switch } from 'react-router-dom'
 import CartPage from '../pages/cart-page';
 import HomePage from '../pages/home-page';
