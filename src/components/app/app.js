@@ -11,7 +11,7 @@ const App = () => {
         <main role='main' className='container'>
             <ShopHeader numItems={5} total={210}/>
             <Switch>
-                <Route path="/" exact component={HomePage} />
+                <Route path="/shop-react-redux" exact component={HomePage} />
                 <Route path="/cart" component={CartPage} />
             </Switch>
             <ShoppingCartTable />
